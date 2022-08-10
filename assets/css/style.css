@@ -16,6 +16,8 @@ body {
 main {
   margin-top: 25vh;
 }
+
+
 main article {
   margin-left: auto;
   margin-right: auto;
@@ -23,11 +25,13 @@ main article {
   display: flex;
   flex-direction: column;
 }
+
 main article div {
   display: flex;
   flex-direction: column;
   width: 432px;
 }
+
 main article div h3 {
   background-color: #fdc636;
   border-radius: 50%;
@@ -40,12 +44,14 @@ main article div h3 {
   align-self: end;
   position: absolute;
 }
+
 main article div h1 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 6rem;
   margin-top: 2vh;
 }
+
 main h2 {
   text-transform: uppercase;
   font-size: 2rem;
@@ -58,9 +64,11 @@ footer {
   justify-content: flex-end;
   margin-top: 15vh;
 }
+
 footer div {
   margin-right: 4vw;
 }
+
 footer div img {
   height: 5vh;
 }

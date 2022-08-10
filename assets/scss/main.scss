@@ -17,6 +17,11 @@ body {
 
 $varUpper: uppercase;
 
+@mixin flx {
+    display: flex;
+    flex-direction: column;
+}
+
 //Nesting
 main {
     margin-top: 25vh;
@@ -26,9 +31,7 @@ main {
         margin-left: auto;
         margin-right: auto;
         width: 35%;
-
-        display: flex;
-        flex-direction: column;
+        @include flx;
 
         div {
 
